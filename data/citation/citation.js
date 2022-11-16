@@ -49,7 +49,7 @@ const data = [
         "contain": "La peur qui fait essentielement partie de la responsabilité n'est pas celle qui nous déconseille d'agir mais celle qui nous invite à agir, cette peur que nous visons pour l'objet de la responsabilité. Jonas nous dit que la peur pour nos descendants nous invite à l'action."
     } , {
         "name": "Kant",
-        "Contain": "Deux choses remplissent mon esprit d'une admiration et d'un respect incessants : le ciel étoilé au dessus de moi et la loi morale en moi."
+        "contain": "Deux choses remplissent mon esprit d'une admiration et d'un respect incessants : le ciel étoilé au dessus de moi et la loi morale en moi."
     }, {
         'name': "Kant",
         "contain": "Agis de tel sorte que la maxime de ton action soit universalisable."
@@ -91,7 +91,65 @@ const data = [
         "contain": "Génie ou pas c'est une page tous les latins"
     } , {
         "name": "J . Joyce",
-        "contain": "Pouvez-vous me justifier chaque mots moi, je peux vous justifier chaque syllabe" 
+        "contain": "Pouvez-vous me justifier chaque mots moi, je peux vous justifier chaques syllabes" 
+    } , {
+        "name": "Boileau",
+        "contain": "Le vrai n peut quelques fois n'être pas vraissemblable" 
     }
 ];
 
+class Citation {
+    constructor () {
+
+    } 
+
+    static #citationstyle(selector, json , i) {
+        $(selector).append(`<i>Author: ${json.name}</i><blockquote>${json.contain}<br><a dataarray="${i}" >Je la connais</a></blockquote><br>`)
+    }
+
+    static showall(selector) {
+         
+        for (let i = 0; i < data.length; i++) {
+            this.#citationstyle(selector, data[i], i);
+        }
+
+    } 
+    
+    static search(selector, author_name) {
+
+        $(selector).html(" ")
+
+        for (let i = 0; i < data.length; i++) {
+            if (data[i].name == author_name) {
+                this.#citationstyle(selector, data[i], i);
+            }
+        }
+
+    }
+}
+
+
+//nombre de citations
+$("#counter").text(data.length +  " citations"); 
+
+//auto complétion merci jquery
+
+let author_list = [];
+
+for (let element of data) {
+
+    if (!author_list.includes(element.author)) {
+        author_list.push(element.name)
+    }
+}
+
+
+$("#q").autocomplete({
+    source: author_list
+});
+
+Citation.showall(".allcitation"); 
+
+$("#submitsearch").on("click", e => {
+    Citation.search(".allcitation",$("#q").val());
+});

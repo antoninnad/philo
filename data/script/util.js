@@ -35,7 +35,3 @@ class Cookie {
     
 } 
  
-
-let $ = (selector) => {
-    return document.querySelector(selector);
-}
