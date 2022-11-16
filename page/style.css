@@ -6743,6 +6743,7 @@ legend {
 button {
     background-color: #72f1b8;
     border-radius: 4px;
+    border: 0;
     padding: 5px 15px;
 }
 
