@@ -50,6 +50,48 @@ const data = [
     } , {
         "name": "Kant",
         "Contain": "Deux choses remplissent mon esprit d'une admiration et d'un respect incessants : le ciel étoilé au dessus de moi et la loi morale en moi."
+    }, {
+        'name': "Kant",
+        "contain": "Agis de tel sorte que la maxime de ton action soit universalisable."
+    } , {
+        'name': "Kant",
+        "contain": "Agis de façon telle que tu traites l'humanité, aussi bien dans ta personne que dans toute autre, toujours en même temps comme fin, et jamais simplement comme moyen."
+    } , {
+        'name': "Jonas",
+        "contain": "Agit de façon à ce que les effets de tes actions agissent sur la terre"
+    } , {
+        "name": "Jonas",
+        "contain": "Nous n'éritons pas de la terre, nous l'emprentons à nos enfants"
+    } , {
+        "name" : "Bacon",
+        "contain": "On ne commande la nature qu'en lui obéissant"
+    } , {
+        "name": "Descartes",
+        "Contain": "La science nous rendra maître et professeur de la nature."
+    } , {
+        "name": "Voltaire",
+        "contain": "Me travail nous libère de trois maux le besoin , l'ennui et le vice .\n Analyse le travail nous libère de l'ennui => occupation du vice => on travaille, on est occupé donc on ne fait pas d'infraction"
+    } , {
+        "name": "Hegel",
+        "contain": "Le travail nous rend libre"
+    } , {
+        "name": "Nietzsche",
+        "contain": "Ce qui ne me tue pas me rend meilleur"
+    } , {
+        "name": "Rousseau",
+        "contain": "L'adversité est le meilleur maître"
+    } , {
+        "name": "La Bruyere",
+        "contain": "C'est un métier de faire un livre comme de faire une pendule"
+    } , {
+        "name": "Beithoven",
+        "contain": "Croyez vous que je me soucis de vos misérables violons lorsque l'esprit me parle"
+    } , {
+        "name": "Flaubert",
+        "contain": "Génie ou pas c'est une page tous les latins"
+    } , {
+        "name": "J . Joyce",
+        "contain": "Pouvez-vous me justifier chaque mots moi, je peux vous justifier chaque syllabe" 
     }
 ];
 
