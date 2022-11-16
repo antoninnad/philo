@@ -104,7 +104,7 @@ class Citation {
     } 
 
     static #citationstyle(selector, json , i) {
-        $(selector).append(`<i>Author: ${json.name}</i><blockquote>${json.contain}<br><a dataarray="${i}" >Je la connais</a></blockquote><br>`)
+        $(selector).append(`<i>Author: ${json.name}</i><blockquote>${json.contain}<br><a dataarray="${i}" >None</a></blockquote><br>`)
     }
 
     static showall(selector) {
