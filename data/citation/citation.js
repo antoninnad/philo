@@ -38,7 +38,18 @@ const data = [
     } , {
         "name": "Heidegger",
         "contain": "La nature devient objet pour lequel on prend commande."
-    } 
+    } , {
+        "name": "NaN",
+        "contain": "Nous n'avons pas le droit d'hypotéquer l'éxistence des générations futures à cquse de notre simple laisser aller."
+    } , {
+        "name": "Descartes",
+        "contain": "Nous rendre comme maîtres et possesseurs de la nature."
+    } , {
+        'name': "Jonas",
+        "contain": "La peur qui fait essentielement partie de la responsabilité n'est pas celle qui nous déconseille d'agir mais celle qui nous invite à agir, cette peur que nous visons pour l'objet de la responsabilité. Jonas nous dit que la peur pour nos descendants nous invite à l'action."
+    } , {
+        "name": "Kant",
+        "Contain": "Deux choses remplissent mon esprit d'une admiration et d'un respect incessants : le ciel étoilé au dessus de moi et la loi morale en moi."
+    }
 ];
 
-export data;
