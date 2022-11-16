@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./page/style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -12,14 +12,24 @@
     <title>Document</title>
 </head>
 <body>
-
-    <h2>Philo_main</h2>
+    <h2>Repere philo</h2>
+    <hr> 
+    <b id="counter"></b> 
+    <br>
+    <br>
+    <input type="search" name="" id="q" placeholder="Recherche..">  
+    <br>
+    <button id="submitsearch">Rechercher</button> 
+    <br>
     <hr>
-    <a href="./page/citation.html"><button>Citations</button></a>
-    <a href="./page/repere.html"><button>Reperes</button></a>
 
-    <script src="./data/script/util.js"></script>
-    <script src="./data/citation/citation.js"></script> 
+    <div class="allcitation">
+        <br>
+        <h3>Aucun repere n'a été rentré pour l'instant</h3>
+    </div>
+
+    <script src="./../data/script/util.js"></script>
+    <script src="./../data/repere/repere.js"></script> 
 
    
     <style> 

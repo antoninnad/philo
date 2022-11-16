@@ -1,7 +1,7 @@
 const data = [
     {
         "name": "Galilé Italien XII",
-        "contain": "Le grand livre du monde a été écrit en langauge mathématique"
+        "contain": "Le grand livre du monde a été écrit en langage mathématique"
     },
     {
         "name": "Auguste Conte",
@@ -40,13 +40,13 @@ const data = [
         "contain": "La nature devient objet pour lequel on prend commande."
     } , {
         "name": "Jonas",
-        "contain": "Nous n'avons pas le droit d'hypothéquer l'éxistence des générations futures à cquse de notre simple laisser aller."
+        "contain": "Nous n'avons pas le droit d'hypothéquer l'existence des générations futures à cause de notre simple laissé aller."
     } , {
         "name": "Descartes",
         "contain": "Nous rendre comme maîtres et possesseurs de la nature."
     } , {
         'name': "Jonas",
-        "contain": "La peur qui fait essentielement partie de la responsabilité n'est pas celle qui nous déconseille d'agir mais celle qui nous invite à agir, cette peur que nous visons pour l'objet de la responsabilité. Jonas nous dit que la peur pour nos descendants nous invite à l'action."
+        "contain": "La peur qui fait essentiellement partie de la responsabilité n'est pas celle qui nous déconseille d'agir mais celle qui nous invite à agir, cette peur que nous visons pour l'objet de la responsabilité. Jonas nous dit que la peur pour nos descendants nous invite à l'action."
     } , {
         "name": "Kant",
         "contain": "Deux choses remplissent mon esprit d'une admiration et d'un respect incessants : le ciel étoilé au dessus de moi et la loi morale en moi."
@@ -58,7 +58,7 @@ const data = [
         "contain": "Agis de façon telle que tu traites l'humanité, aussi bien dans ta personne que dans toute autre, toujours en même temps comme fin, et jamais simplement comme moyen."
     } , {
         'name': "Jonas",
-        "contain": "Agit de façon à ce que les effets de tes actions agissent sur la terre"
+        "contain": "Agis de façon à ce que les effets de tes actions agissent sur la terre"
     } , {
         "name": "Jonas",
         "contain": "Nous n'éritons pas de la terre, nous l'emprentons à nos enfants"
@@ -85,16 +85,16 @@ const data = [
         "contain": "C'est un métier de faire un livre comme de faire une pendule"
     } , {
         "name": "Beithoven",
-        "contain": "Croyez vous que je me soucis de vos misérables violons lorsque l'esprit me parle"
+        "contain": "Croyez vous que je me soucie de vos misérables violons lorsque l'esprit me parle"
     } , {
         "name": "Flaubert",
         "contain": "Génie ou pas c'est une page tous les matins."
     } , {
         "name": "J . Joyce",
-        "contain": "Pouvez-vous me justifier chaque mots moi, je peux vous justifier chaques syllabes" 
+        "contain": "Pouvez-vous me justifier chaque mot moi, je peux vous justifier chaque syllabe" 
     } , {
         "name": "Boileau",
-        "contain": "Le vrai n peut quelques fois n'être pas vraissemblable" 
+        "contain": "Le vrai peut quelques fois n'être pas vraisemblable" 
     }
 ];
 
