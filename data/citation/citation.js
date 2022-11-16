@@ -27,8 +27,8 @@ const data = [
         "name": "Kant",
         "contain": "L'homme est un animal qui a besoin d'un maître."
     } , {
-        "name": "On parle de bon sauvage",
-        "Contain": "l'homme est naturelement bon."
+        "name": "Rousseau",
+        "contain": "l'homme est naturelement bon."
     }, {
         "name": "Montaigne",
         "contain": "Chacun juge de barbare ce qui n'est pas de son usage."
@@ -39,8 +39,8 @@ const data = [
         "name": "Heidegger",
         "contain": "La nature devient objet pour lequel on prend commande."
     } , {
-        "name": "NaN",
-        "contain": "Nous n'avons pas le droit d'hypotéquer l'éxistence des générations futures à cquse de notre simple laisser aller."
+        "name": "Jonas",
+        "contain": "Nous n'avons pas le droit d'hypothéquer l'éxistence des générations futures à cquse de notre simple laisser aller."
     } , {
         "name": "Descartes",
         "contain": "Nous rendre comme maîtres et possesseurs de la nature."
@@ -67,7 +67,7 @@ const data = [
         "contain": "On ne commande la nature qu'en lui obéissant"
     } , {
         "name": "Descartes",
-        "Contain": "La science nous rendra maître et professeur de la nature."
+        "contain": "La science nous rendra maître et professeur de la nature."
     } , {
         "name": "Voltaire",
         "contain": "Me travail nous libère de trois maux le besoin , l'ennui et le vice .\n Analyse le travail nous libère de l'ennui => occupation du vice => on travaille, on est occupé donc on ne fait pas d'infraction"
@@ -88,7 +88,7 @@ const data = [
         "contain": "Croyez vous que je me soucis de vos misérables violons lorsque l'esprit me parle"
     } , {
         "name": "Flaubert",
-        "contain": "Génie ou pas c'est une page tous les latins"
+        "contain": "Génie ou pas c'est une page tous les matins."
     } , {
         "name": "J . Joyce",
         "contain": "Pouvez-vous me justifier chaque mots moi, je peux vous justifier chaques syllabes" 
