@@ -8,7 +8,11 @@ Carnet avec mes citations et mes repères vue en philo. Facilement changeable vo
   }]
 
 ```
-pareil pour repères
+pareil pour reperes
+
+## Lien
+[lien](https://antoninnad.github.io/philo/)
+
 ## Installation
 ```console
 git clone https://github.com/antoninnad/philo_main
