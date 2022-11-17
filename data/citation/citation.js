@@ -1,5 +1,15 @@
 const data = [
     {
+        "name": "Socrate",
+        "contain": "Tous ce que je sais c'est que je ne sais rien"
+    },{
+        "name": "Socrate",
+        "contain": "Vaut mieux subir une injustice que de la commettre"
+    }, {
+        "name": "Erasmus",
+        "contain": "On ne naît pas homme on le devient"
+    },
+    {
         "name": "Galilé Italien XII",
         "contain": "Le grand livre du monde a été écrit en langage mathématique"
     },
