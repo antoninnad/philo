@@ -11,7 +11,7 @@ Carnet avec mes citations et mes repères vue en philo. Facilement changeable vo
 pareil pour reperes
 
 ## Lien
-[lien](https://antoninnad.github.io/philo/)
+[lien vers le site](https://antoninnad.github.io/philo/)
 
 ## Installation
 ```console
