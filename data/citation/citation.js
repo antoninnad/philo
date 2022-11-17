@@ -108,15 +108,15 @@ const data = [
     }
 ];
 
+
 class Citation {
     constructor () {
 
     } 
 
     static #citationstyle(selector, json , i) {
-        $(selector).append(`<i>Author: ${json.name}</i><blockquote>${json.contain}<br><a dataarray="${i}" >None</a></blockquote><br>`)
-        
-        //bouton moins et plus
+        $(selector).append(`<i>Author: ${json.name}</i><blockquote><div>${json.contain}</div><br><a dataarray="${i}" >moins</a></blockquote><br>`)
+        //new bblock code 
         let all = document.querySelectorAll("blockquote a"); 
 
 
@@ -138,6 +138,8 @@ class Citation {
 
                 
         })
+
+
     }
 
     static showall(selector) {
