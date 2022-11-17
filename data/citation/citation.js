@@ -115,6 +115,29 @@ class Citation {
 
     static #citationstyle(selector, json , i) {
         $(selector).append(`<i>Author: ${json.name}</i><blockquote>${json.contain}<br><a dataarray="${i}" >None</a></blockquote><br>`)
+        
+        //bouton moins et plus
+        let all = document.querySelectorAll("blockquote a"); 
+
+
+        let element = all[i];
+
+        element.addEventListener("click", e => {
+                
+        let indice = element.getAttribute("dataarray");
+                let blockquote = document.querySelectorAll("blockquote div")[i];
+                
+
+                if (blockquote.textContent == "") {
+                    blockquote.textContent = data[i].contain;
+                    element.textContent = "Moins"
+                } else {
+                    blockquote.textContent = "";
+                    element.textContent = "Plus"
+                }
+
+                
+        })
     }
 
     static showall(selector) {
