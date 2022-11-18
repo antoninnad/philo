@@ -156,7 +156,7 @@ class Citation {
 
         for (let i = 0; i < data.length; i++) {
             if (data[i].name == author_name) {
-                this.#citationstyle(selector, data[i], i);
+                this.citationstyle(selector, data[i], i);
             }
         }
 
