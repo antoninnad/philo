@@ -114,7 +114,7 @@ class Citation {
 
     } 
 
-    static #citationstyle(selector, json , i) {
+    static citationstyle(selector, json , i) {
         $(selector).append(`<i>Author: ${json.name}</i><blockquote><div>${json.contain}</div><br><a dataarray="${i}" >moins</a></blockquote><br>`)
         //new bblock code 
         let all = document.querySelectorAll("blockquote a"); 
