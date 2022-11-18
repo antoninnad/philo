@@ -145,7 +145,7 @@ class Citation {
     static showall(selector) {
          
         for (let i = 0; i < data.length; i++) {
-            this.#citationstyle(selector, data[i], i);
+            this.citationstyle(selector, data[i], i);
         }
 
     } 
